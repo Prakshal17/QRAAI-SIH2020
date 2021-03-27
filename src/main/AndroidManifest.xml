@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.qraai">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".allrecords"></activity>
+        <activity android:name=".Pastrecords" />
+        <activity android:name=".Furnitutre_Facilitation_Equipment" />
+        <activity android:name=".File_Station_Store" />
+        <activity android:name=".MT_Workshop_store" />
+        <activity android:name=".General_Store" />
+        <activity android:name=".Non_Consumable" />
+        <activity
+            android:name=".Consumable"
+            android:parentActivityName=".generateqrbr" />
+        <activity android:name=".Update" />
+        <activity
+            android:name=".Barcode"
+            android:parentActivityName=".generateqrbr" />
+        <activity
+            android:name=".QRcode"
+            android:parentActivityName=".generateqrbr" />
+        <activity
+            android:name=".scanner"
+            android:parentActivityName=".Home" />
+        <activity
+            android:name=".generateqrbr"
+            android:parentActivityName=".Home" />
+        <activity android:name=".Home" />
+        <activity android:name=".registration" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".splashscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

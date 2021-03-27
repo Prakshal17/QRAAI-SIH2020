@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "375153368066",
+    "firebase_url": "https://qraai-c255a.firebaseio.com",
+    "project_id": "qraai-c255a",
+    "storage_bucket": "qraai-c255a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:375153368066:android:a2ea31772ed1118ff99b1b",
+        "android_client_info": {
+          "package_name": "com.example.qraai"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "375153368066-ckvo90hkhb4gbt1574clm16holkppal7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.qraai",
+            "certificate_hash": "b3f759254d39f04626840e25efd377596a4927c6"
+          }
+        },
+        {
+          "client_id": "375153368066-nj91cb5l85ft7l8q72v2n3nlig8p220a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGN-1fYkU6hi21ZmTm14U_FMDt6gnow2s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "375153368066-nj91cb5l85ft7l8q72v2n3nlig8p220a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

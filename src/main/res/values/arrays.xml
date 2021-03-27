@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="planets_array">
+        <item>Select_category</item>
+        <item>Consumable</item>
+        <item>Non-Consumable</item>
+        <item>General_Store</item>
+        <item>MT_Workshop_store</item>
+        <item>File_Station_Store</item>
+        <item>Furniture_and_Facilitation_Equipment</item>
+    </string-array>
+    <string-array name="up">
+        <item>Select_Service_Operation</item>
+        <item>Repair_Equipment</item>
+        <item>Replace_Equipment</item>
+    </string-array>
+</resources>

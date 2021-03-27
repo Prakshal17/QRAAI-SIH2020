@@ -1,0 +1,88 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+<!--        <item name="colorPrimaryVariant">@color/my_app_primary_variant_color</item>-->
+<!--        <item name="colorSecondaryVariant">@color/my_app_secondary_variant_color</item>-->
+<!--        <item name="colorSurface">@color/my_app_surface_color</item>-->
+<!--        <item name="colorOnPrimary">@color/my_app_color_on_primary</item>-->
+<!--        <item name="colorOnSecondary">@color/my_app_color_on_secondary</item>-->
+<!--        <item name="colorOnBackground">@color/my_app_color_on_background</item>-->
+<!--        <item name="colorOnError">@color/my_app_color_on_error</item>-->
+<!--        <item name="colorOnSurface">@color/my_app_color_on_surface</item>-->
+        <item name="scrimBackground">@color/mtrl_scrim_color</item>
+        <item name="textAppearanceHeadline1">@style/TextAppearance.MaterialComponents.Headline1</item>
+        <item name="textAppearanceHeadline2">@style/TextAppearance.MaterialComponents.Headline2</item>
+        <item name="textAppearanceHeadline3">@style/TextAppearance.MaterialComponents.Headline3</item>
+        <item name="textAppearanceHeadline4">@style/TextAppearance.MaterialComponents.Headline4</item>
+        <item name="textAppearanceHeadline5">@style/TextAppearance.MaterialComponents.Headline5</item>
+        <item name="textAppearanceHeadline6">@style/TextAppearance.MaterialComponents.Headline6</item>
+        <item name="textAppearanceSubtitle1">@style/TextAppearance.MaterialComponents.Subtitle1</item>
+        <item name="textAppearanceSubtitle2">@style/TextAppearance.MaterialComponents.Subtitle2</item>
+        <item name="textAppearanceBody1">@style/TextAppearance.MaterialComponents.Body1</item>
+        <item name="textAppearanceBody2">@style/TextAppearance.MaterialComponents.Body2</item>
+        <item name="textAppearanceCaption">@style/TextAppearance.MaterialComponents.Caption</item>
+        <item name="textAppearanceButton">@style/TextAppearance.MaterialComponents.Button</item>
+        <item name="textAppearanceOverline">@style/TextAppearance.MaterialComponents.Overline</item>
+
+    </style>
+    <style name="MatchSpinnerStyle" parent="android:style/Widget.ListView.DropDown">
+        <item name="android:divider">#e713c0</item>
+        <item name="android:dividerHeight">2dp</item>
+    </style>
+
+    <style name="MatchSpinnerTheme" parent="AppTheme">
+        <item name="android:dropDownListViewStyle">@style/MatchSpinnerStyle</item>
+    </style>
+
+    <!--designs for login and register-->
+    <style name="parent">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="loginParent" parent="parent">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/loginBkColor</item>
+        <item name="android:focusableInTouchMode">true</item>
+    </style>
+
+    <style name="headerText" parent="parent">
+        <item name="android:textSize">@dimen/headerTextSize</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">@color/whiteTextColor</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="loginCard" parent="parent"></style>
+
+    <style name="linearParent" parent="parent">
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="headerTextPrimary" parent="headerText">
+        <item name="android:textColor">@color/primaryTextColor</item>
+    </style>
+
+    <style name="modifiedEditText" parent="parent">
+        <item name="android:textSize">@dimen/newsMoreTextSize</item>
+        <item name="android:background">@color/primaryTextColor</item>
+    </style>
+
+    <style name="viewParent">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="loginButton" parent="viewParent">
+        <item name="android:background">@drawable/login_button_bk</item>
+        <item name="android:textColor">@color/whiteTextColor</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+</resources>

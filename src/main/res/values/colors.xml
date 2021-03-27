@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="greeen">#008577</color>
+    <color name="faintgreen">#00574B</color>
+    <color name="indigo3">#313f8c</color>
+    <color name="colorPrimaryDark">#3F51B5</color>
+    <color name="indigo2">#8093ff</color>
+    <color name="indigo1">#3a4aa6</color>
+    <color name="colorPrimary">#313f8c</color>
+    <color name="colorAccent">#242e66</color>
+    <color name="indigo4">#000b4d</color>
+    <color name="indigo5">#000833</color>
+
+    <!--colors for modern ui-->
+    <color name="whiteTextColor">#fff</color>
+    <color name="primaryTextColor">#8093ff</color>
+    <color name="loginBkColor">#f0f0f0</color>
+
+    <!--colros for card-->
+    <color name="whiteCardColor">#fff</color>
+
+</resources>
