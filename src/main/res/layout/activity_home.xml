@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8093ff"
+    android:orientation="vertical"
+    tools:context=".Home">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="30dp"
+            android:elevation="5dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="#fff">
+
+            <LinearLayout
+
+                style="@style/linearParent"
+                android:layout_gravity="center"
+                android:padding="@dimen/loginViewsMargin">
+
+                <Button
+                    android:id="@+id/qrgenerate"
+                    android:layout_width="200dp"
+                    android:layout_height="80dp"
+                    android:textColor="#000"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:onClick="qrbrgenerate"
+                    android:background="@drawable/btn_custom"
+                    android:text="Register/Add\n Equipment"
+                    android:layout_gravity="center_horizontal"/>
+
+                <Button
+                    android:id="@+id/update"
+                    android:layout_width="200dp"
+                    android:layout_height="80dp"
+                    android:textColor="#000"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:onClick="scanner"
+                    android:background="@drawable/btn_custom"
+                    android:text="Update Details\n of Equipment"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="@dimen/loginViewsMargin"/>
+
+                <Button
+                    android:id="@+id/scanner"
+                    android:layout_width="200dp"
+                    android:layout_height="80dp"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:onClick="scanner"
+                    android:background="@drawable/btn_custom"
+                    android:text="Scan\n QR/Barcode"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="@dimen/loginViewsMargin"/>
+                <Button
+                    android:id="@+id/all"
+                    android:layout_width="200dp"
+                    android:layout_height="80dp"
+                    android:textColor="#000"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:onClick="pastrecords"
+                    android:background="@drawable/btn_custom"
+                    android:text="Past Service\n Records"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="@dimen/loginViewsMargin"/>
+                <Button
+                    android:id="@+id/delete"
+                    android:layout_width="200dp"
+                    android:layout_height="80dp"
+                    android:textColor="#000"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:onClick="scanner"
+                    android:background="@drawable/btn_custom"
+                    android:text="Delete\n Equipment"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="@dimen/loginViewsMargin"/>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </ScrollView>
+
+</RelativeLayout>
